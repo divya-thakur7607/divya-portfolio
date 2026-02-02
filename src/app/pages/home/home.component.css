@@ -1,0 +1,104 @@
+.hero-section {
+  background: linear-gradient(135deg, #f5f5f8, #e0e0f8);
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  color: #333;
+  position: relative;
+}
+
+.highlight-name {
+  color: #695aa6;
+  font-weight: 700;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+}
+
+.subtitle {
+  color: #555;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.hero-text {
+  color: #444;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+.hero-buttons .btn-main {
+  background: #695aa6;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 12px 25px;
+  transition: all 0.3s ease;
+}
+
+.hero-buttons .btn-main:hover {
+  background: #8573d6;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(133,115,214,0.3);
+}
+
+.hero-buttons .btn-outline-main {
+  border: 2px solid #695aa6;
+  color: #695aa6;
+  border-radius: 50px;
+  padding: 12px 25px;
+  transition: all 0.3s ease;
+}
+
+.hero-buttons .btn-outline-main:hover {
+  background: #695aa6;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(133,115,214,0.3);
+}
+
+.profile-img {
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  border: 6px solid rgba(105,90,166,0.2);
+  transition: all 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 50px rgba(105,90,166,0.3);
+}
+
+/* Feature Cards */
+.hero-features {
+  margin-top: 30px;
+}
+
+.feature-card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  color: #695aa6;
+  padding: 10px 18px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  box-shadow: 0 8px 20px rgba(105,90,166,0.15);
+  transition: all 0.3s ease;
+}
+
+.feature-card i {
+  font-size: 1.2rem;
+}
+
+.feature-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(105,90,166,0.3);
+}
+
+/* Typing effect */
+.typed-role {
+  color: #695aa6;
+  font-weight: 600;
+}

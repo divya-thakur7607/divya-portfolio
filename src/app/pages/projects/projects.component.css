@@ -1,0 +1,54 @@
+.projects-section {
+  background: #f6f4ff;
+}
+
+.project-card {
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(105, 90, 166, 0.15);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.project-card h4 {
+  font-weight: 800;
+  color: #695aa6;
+  margin-bottom: 8px;
+}
+
+.project-card h4 span {
+  font-size: 0.9rem;
+  color: #555;
+  font-weight: 600;
+}
+
+.project-card p {
+  color: #444;
+  line-height: 1.6;
+}
+
+.project-card ul {
+  padding-left: 18px;
+  margin-top: 10px;
+}
+
+.project-card ul li {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.project-link a {
+  color: #695aa6;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-link a:hover {
+  text-decoration: underline;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 22px 45px rgba(105, 90, 166, 0.25);
+}
